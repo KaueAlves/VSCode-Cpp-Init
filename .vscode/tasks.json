@@ -6,7 +6,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "*.cpp", "-o", "grimorie",
+                "-g", "-I./classes","classes/*.cpp","main.cpp", "-o", "grimorie",
             ],
             "group": {
                 "kind": "build",
